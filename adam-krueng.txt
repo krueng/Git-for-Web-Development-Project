@@ -66,7 +66,8 @@ Many classes, but only one id on a page.
 Use a . (period).
 
     21. How do we select a p element with a single class of “human””?
-p.human
+.human p{
+}
 
     22. What is a parent child selector? When would this be useful?
 Selects all element that are directly under a parent element. Useful because you don't really have to know what is child'd id or class. 
